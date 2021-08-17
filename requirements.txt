@@ -1,6 +1,5 @@
 os
 telebot
-from telebot import types
-from datetime import datetime
+datetime
 calendar
 logging
