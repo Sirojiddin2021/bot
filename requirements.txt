@@ -4,7 +4,7 @@ itsdangerous==1.1.0
 Jinja2==2.10
 MarkupSafe==1.1.0
 requests==2.7.0
-pyTelegramBotAPI==5.3
+pyTelegramBotAPI==3.8.2
 Werkzeug==0.14.1
 requests==2.7.0
 datetime
