@@ -56,6 +56,16 @@ def handle_messages(messages):
     except Exception as e:
         print(e)
 
-bot.set_update_listener(handle_messages)
-bot.polling()
+
+
+def main() -> None:
+    """Run bot."""
+    # Create the Updater and pass it your bot's token.
+    bot.set_update_listener(handle_messages)
+    bot.polling()
+
+
+
+if __name__ == '__main__':
+    main()
 
