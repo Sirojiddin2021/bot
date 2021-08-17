@@ -1,20 +1,10 @@
-import os
 import telebot
 from telebot import types
 from datetime import datetime
 import calendar
 
 
-import logging
 
-
-
-logging.basicConfig(
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
-)
-logger = logging.getLogger(__name__)
-
-#API_KEY = "1917933946:AAFoZVolx0SRxKSqODsb0K73CozDlin1mAo"
 API_KEY = "1960500338:AAGHjBiwp3qJPLAfuuc567MznM73fgFvP3c"
 
 bot = telebot.TeleBot(API_KEY)
